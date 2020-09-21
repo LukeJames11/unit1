@@ -1,25 +1,29 @@
 package app;
 
+import java.util.Scanner;
+
 public class App {
-    public static void main(String[] args) throws Exception { 
-     String person1 = "kyle";
-     String verb1 = "eat";
-     String place1 = "dunkin donuts";
+    public static void main(String[] args) {
 
-     System.out.println(person1 + " " + "likes too" + " " + verb1 + " " + "at" + " " + place1);
+    Scanner input = new Scanner(System.in);
 
-     String person2 = "john";
-     String verb2 = "race";
-     String place2 = "town";
-     String adjective1 = "fast";
+    System.out.println("please enter your full name");
+    String firstName = input.nextLine();
+    String lastName = input.nextLine();
 
-     System.out.println(person2 + " " + "likes to" + " " + verb2 + " " + "all round" + " " + place2 + " " + "because he thinks hes really" + " " + adjective1);
+    System.out.println("please enter your age");
 
-     String food = "chinese";
-     String verb3 = "jumpy";
-     String adjective2 = "yummy";
-     String dayOfWeek = "sundays";
+    String age = input.nextLine();
 
-     System.out.println("on" + " " + dayOfWeek + " " + "i get very" + " " + verb3 + " " + "becuase we sometimes get to have" + " " + food + " " + "and it is very very" + " " + adjective2);
+    System.out.println("please enter your grade");
+
+    String grade = input.nextLine();
+
+    System.out.println("please enter your fav color");
+
+    String favColor = input.nextLine();
+
+    System.out.println("hello " + firstName + " " + lastName + "how old  are you? " + age + " " + "what grade are you in? " + grade + " " + "and whats your fav color " + favColor);
+    
     }
 }
