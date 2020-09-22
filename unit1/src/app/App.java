@@ -7,8 +7,11 @@ public class App {
 
     Scanner input = new Scanner(System.in);
 
-    System.out.println("please enter your full name");
+    System.out.println("please enter your first name");
     String firstName = input.nextLine();
+
+    System.out.println("please enter your last name");
+
     String lastName = input.nextLine();
 
     System.out.println("please enter your age");
@@ -23,7 +26,7 @@ public class App {
 
     String favColor = input.nextLine();
 
-    System.out.println("hello " + firstName + " " + lastName + "how old  are you? " + age + " " + "what grade are you in? " + grade + " " + "and whats your fav color " + favColor);
+    System.out.println("hello " + firstName + " " + lastName + "you are " + age + " " + "you are in grade " + grade + " " + "your fav color is " + favColor);
     
     }
 }
