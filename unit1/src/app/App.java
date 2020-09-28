@@ -3,26 +3,14 @@ package app;
 public class App {
     public static void main(String[] args) throws Exception {
 
-        for (int i = 0; i <= 10; i = i +1){
-            System.out.println("the count is " + i);
-            System.out.println("lets keep counting");
+        for (int i = 1; i <= 20; i++) {
+            if (i % 4 == 0) {
+                System.out.println(i + " is divible by 4");
+            } else {
+                System.out.println(i + " is not divisble by 4");
+            }
         }
-        for (int i = 10; i <= 20; i = i +1){
-            System.out.println("the count is " + i);
-            System.out.println("lets keep counting");
-        }
-        for (int i = 1000; i <= 256000; i = i +1000){
-            System.out.println("the count is " + i);
-            System.out.println("lets keep counting");
-        }
-        for (int i = 11; i <= 12; i = i +1){
-            System.out.println("the count is " + i);
-            System.out.println("lets keep counting");
-        }
-        for (int i = 10; i <= 0; i = i - 1){
-            System.out.println("the count is " + i);
-            System.out.println("lets keep counting");
-        }
-    
+
+        System.out.println("all finished");
     }
 }
