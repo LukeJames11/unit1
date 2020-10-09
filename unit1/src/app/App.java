@@ -5,38 +5,23 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
 
-                System.out.println("whats the pasword");
+ Scanner input = new Scanner(System.in);
 
-                        Scanner input = new Scanner(System.in);
+int count = 0;
+while (i < 10);
 
-        String answer1 = input.nextLine();
+        System.out.println("please enter a number");
 
-        if (answer1.equals("0000")){
-            System.out.println("that is the right pasword");
-            System.out.println("i like to run cc");
+            String answer1 = input.nextLine();
+
+            if (answer1.equals("38")){
+            System.out.println("correct!");
         }
 
         else{
-        System.out.println("ERROR!");
-                System.out.println("please enter password");
-                String answer2 = input.nextLine();
-                if (answer2.equals("0000")){
-            System.out.println("that is the right pasword");
-            System.out.println("i like to run cc");
-                }
-
-            else{
-        System.out.println("ERROR LAST CHANCE!");
-                System.out.println("please enter password");
-                String answer3 = input.nextLine();
-                if (answer3.equals("0000")){
-            System.out.println("that is the right pasword");
-            System.out.println("i like to run cc");
-                }
-                else{
-                System.out.println("ERROR! BYE!!!");
-                }
+            System.out.println("wrong answer try again");
+            String answer2 = input.nextLine();
         }
-    }
-}
-}
+        }
+
+        }
