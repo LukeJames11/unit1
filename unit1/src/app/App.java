@@ -7,8 +7,7 @@ public class App {
 
  Scanner input = new Scanner(System.in);
 
-int count = 0;
-while (i < 10);
+ while (true){
 
         System.out.println("please enter a number");
 
@@ -16,12 +15,14 @@ while (i < 10);
 
             if (answer1.equals("38")){
             System.out.println("correct!");
+            break;
         }
 
         else{
             System.out.println("wrong answer try again");
-            String answer2 = input.nextLine();
         }
         }
 
         }
+}
+  
