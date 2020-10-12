@@ -7,22 +7,16 @@ public class App {
 
  Scanner input = new Scanner(System.in);
 
- while (true){
-
         System.out.println("please enter a number");
 
-            String answer1 = input.nextLine();
+            int answer1 = input.nextInt();
 
-            if (answer1.equals("38")){
-            System.out.println("correct!");
-            break;
-        }
+              System.out.println("please enter a number");
 
-        else{
-            System.out.println("wrong answer try again");
-        }
-        }
-
-        }
+            int answer2 = input.nextInt();
+            
+            for (int i = answer1; i < answer2; i += 2) {
+        System.out.println(i);        
+     }
+  }
 }
-  
