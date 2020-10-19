@@ -7,16 +7,10 @@ public class App {
 
  Scanner input = new Scanner(System.in);
 
-        System.out.println("please enter a number");
+        System.out.println("you have  100 $1 chips and ten rounds would you like to make a inside or outside bet ");
 
             int answer1 = input.nextInt();
 
-              System.out.println("please enter a number");
 
-            int answer2 = input.nextInt();
-            
-            for (int i = answer1; i < answer2; i += 2) {
-        System.out.println(i);        
-     }
   }
 }
