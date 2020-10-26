@@ -8,6 +8,7 @@ public class App {
 
  Scanner input = new Scanner(System.in);
  Random rnd = new Random();
+while (true){
 
         System.out.println("would you like to make a inside or outside bet");
             String answer1 = input.nextLine();
@@ -20,17 +21,26 @@ public class App {
 
                  if(n2 == answer2){
                      System.out.println("your right!");
+                     System.out.println("if you want to bet again say bet if you would like to withdraw say withdraw");
+                     String answer3 = input.nextLine();
+                     if(answer3.equals("bet")){
+                         
+                     }
+                     else{
+                         System.out.println("goobye");
+                         break;
+                     }
                  }
                  else{
                      // red and blackroll
                  }
 
              }
-        
-
-        
             else{
+                System.out.println("black or red?");
+                int Black[]={2,4,6,8,10,11,13,15,17,20,22,24,26,28,29,31,33,35};
         }
+    }
 
 
   }
