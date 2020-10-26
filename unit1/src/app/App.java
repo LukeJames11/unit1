@@ -24,24 +24,36 @@ while (true){
                      System.out.println("if you want to bet again say bet if you would like to withdraw say withdraw");
                      String answer3 = input.nextLine();
                      if(answer3.equals("bet")){
-                         
+                         System.out.println("here we go"); 
                      }
                      else{
                          System.out.println("goobye");
                          break;
                      }
-                 }
                  else{
-                     // red and blackroll
-                 }
+                     System.out.println("your wrong");
+                      System.out.println("if you want to bet again say bet if you would like to withdraw say withdraw");
+                     String answer4 = input.nextLine();
+                     if(answer4.equals("bet")){
+                         System.out.println("here we go");
+                         }
 
-             }
+                          else{
+                         System.out.println("goobye");
+                         break;
+                         }
+                         
+                     }
+                     }
+                     else{
+                         System.out.println("goobye");
+                         break;
+                 }
+                }
             else{
                 System.out.println("black or red?");
                 int Black[]={2,4,6,8,10,11,13,15,17,20,22,24,26,28,29,31,33,35};
         }
     }
-
-
-  }
+}
 }
