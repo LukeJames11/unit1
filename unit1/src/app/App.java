@@ -8,7 +8,6 @@ public class App {
 
  Scanner input = new Scanner(System.in);
  Random rnd = new Random();
-while (2==5){
 
         System.out.println("would you like to make a inside or outside bet");
             String answer1 = input.nextLine();
@@ -28,7 +27,6 @@ while (2==5){
                      }
                      else{
                          System.out.println("goobye");
-                         //break;
                      }
                     }
                  else{
@@ -39,21 +37,16 @@ while (2==5){
                          System.out.println("here we go");
                          }
 
-                          else{
-                         System.out.println("goobye");
-                         break;
                          }
                          
                      }
                      
-                 }
-                }
            
                 else{
                 System.out.println("black or red?");
                  String answer5 = input.nextLine();
 
              int Black[]={2,4,6,8,10,11,13,15,17,20,22,24,26,28,29,31,33,35};
+                }
         }
     }
-}
